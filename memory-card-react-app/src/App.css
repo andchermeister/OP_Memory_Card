@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#card-game {
+  background-image: url("https://images3.alphacoders.com/137/thumb-1920-1372317.jpeg");
+}
