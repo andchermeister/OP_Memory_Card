@@ -1,4 +1,10 @@
-.card {
+.cardImg {
   width: 250px;
   height: 250px;
+}
+
+.cardBtn {
+  width: 300px;
+  height: 300px;
+  margin: 30px;
 }

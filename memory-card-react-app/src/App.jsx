@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import Cards from "./components/cards";
 import "./styles/cards.css";
+import Game from "./components/game";
 
 function App() {
   const [score, setScore] = useState(0);
@@ -12,7 +12,7 @@ function App() {
         <h1>Arcane memory card game</h1>
         <h4 id="scoreCounter">Score: {score}</h4>
         <h4 id="highestScore">Highest score: {highestScore}</h4>
-        <Cards
+        <Game
           score={score}
           setScore={setScore}
           setHighestScore={setHighestScore}
